@@ -89,7 +89,7 @@ export function Component() {
   )
 }
 
-function HandHelpingIcon(props) {
+function HandHelpingIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -111,7 +111,7 @@ function HandHelpingIcon(props) {
 }
 
 
-function RedoIcon(props) {
+function RedoIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -132,7 +132,7 @@ function RedoIcon(props) {
 }
 
 
-function SettingsIcon(props) {
+function SettingsIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
